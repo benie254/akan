@@ -7,6 +7,9 @@ function akanName() {
   var myGender = document.getElementById("#Gender");
   var akanName = maleName[finDay];
 
-
-
+  if (myGender === "Male") {
+    alert("Your Akan name is " + maleNames[finDay] + ".");
+  } else if (myGender === "Female") {
+    alert("Your Akan name is " + femaleNames[finDay] + ".")
+  } else alert("Sorry! Please, try again.")
 }
